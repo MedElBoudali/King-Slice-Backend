@@ -15,6 +15,12 @@ export default {
 			}
 		},
 		{
+			name: "description",
+			title: "Description",
+			type: "text",
+			description: "Tell us a bit about this person"
+		},
+		{
 			name: "image",
 			title: "Image",
 			type: "image",
