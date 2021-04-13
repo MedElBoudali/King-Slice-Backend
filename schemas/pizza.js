@@ -15,7 +15,7 @@ export default {
 			}
 		},
 		{
-			name: "imafe",
+			name: "image",
 			title: "Image",
 			type: "image",
 			options: {
