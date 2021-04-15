@@ -1,3 +1,6 @@
+import PriceInput from "../components/PriceInput";
+import PizaInput from "../components/PriceInput";
+
 export default {
 	name: "pizza",
 	title: "Pizzas",
@@ -32,6 +35,7 @@ export default {
 			name: "price",
 			title: "Price",
 			type: "number",
+			inputComponent: PriceInput,
 			description: "Price of the pizza in cents",
 			validation: Rule => Rule.min(1000).max(50000)
 		}
