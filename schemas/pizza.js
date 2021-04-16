@@ -37,7 +37,7 @@ export default {
 			type: "number",
 			inputComponent: PriceInput,
 			description: "Price of the pizza in cents",
-			validation: Rule => Rule.min(1000).max(50000)
+			validation: Rule => Rule.min(10).max(50)
 		}
 	],
 	preview: {
