@@ -14,7 +14,7 @@ const PriceInput = ({ type: { title, description, name }, value, onChange, input
 	return (
 		<div>
 			<h2>
-				{title} - {formatMoney(value ?? 0)}
+				{title} - {formatMoney(value ? value / 100 : 0)}
 			</h2>
 			<p>{description}</p>
 			<input type={name} value={value ?? 0} onChange={e => onChange(createPatchFrom(e.target.value))} ref={inputComponent} />
