@@ -6,6 +6,7 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 import pizza from "./pizza";
 import topping from "./topping";
 import person from "./person";
+import storeSettings from "./storeSettings";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -17,6 +18,7 @@ export default createSchema({
 		/* Your types here! */
 		pizza,
 		topping,
-		person
+		person,
+		storeSettings
 	])
 });
